@@ -5,9 +5,11 @@ Abajo de este encontramos la carpeta correspondiente al código que va en la Ras
 
 **Instrucciones**
 
+Primero se debe clonar o descargar las carpetas del repositorio, por un lado en una máquina se tendrá el código de la ESP32 ya sea en Visual Studio o en arduinoIDE, en otra máquina se tendrá la raspberry corriendo y allí subiremos el código correspondiente a la Raspberry Pi.
+Es importante tener en cuenta que en el código de la ESP32 se debe coincidir donde se define el PIN de entrada el pin donde se está conectando a la Raspberry Pi, para nuestro caso fue el 21.
 Para correr el programa se deben seguir los siguientes pasos:
 
-**[1]** En la Raspberry Pi abrir una terminal yentrar a la carpeta del proyecto, en este caso "Oficina_Inteligente_RaspberryPi"
+**[1]** En la Raspberry Pi abrir una terminal y entrar a la carpeta del proyecto, en este caso "Oficina_Inteligente_RaspberryPi"
 
 **[2]** Ejecutar el comando python3 main.py
 
