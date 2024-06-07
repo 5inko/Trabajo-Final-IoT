@@ -17,6 +17,8 @@ Es **necesario** tener en cuenta que en el código de la ESP32 se debe coincidir
 
 **[2]** Ejecutar el comando python3 main.py
 
+**FUNCIONALIDADES**
+
 Al seguir los pasos se abrirá la interfaz de kivy donde se pueden encender las diferentes luces que están conectadas, en este caso, enciende diferentes colores del led, ya sea rojo, azul o verde, además puede variar su intensidad haciendo que iluminen más o menos.
 
 Añadido a esto se tiene la funcionalidad que provee el sensor de proximidad, el cual hace que cuando detecta un objeto a una distancia de entre 0cm y 30cm se enciende la luz roja, entre 30cm y 60cm se enciende la luz azul, entre 60cm y 100cm y más de 100cm o 1m se mantiene apagada, simulando la ausencia de personas en una habitación.
