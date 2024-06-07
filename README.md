@@ -17,7 +17,7 @@ Es **necesario** tener en cuenta que en el código de la ESP32 se debe coincidir
 
 **[2]** Ejecutar el comando python3 main.py
 
-**FUNCIONALIDADES**
+**FUNCIONALIDADES PRINCIPALES**
 
 Al seguir los pasos se abrirá la interfaz de kivy donde se pueden encender las diferentes luces que están conectadas, en este caso, enciende diferentes colores del led, ya sea rojo, azul o verde, además puede variar su intensidad haciendo que iluminen más o menos.
 
